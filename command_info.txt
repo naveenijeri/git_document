@@ -1,0 +1,8 @@
+1)Differences between git fetch and got pull 
+  git fetch:  Update your local repo from the remote (but don't merge)
+  
+  after downloading the updates, let's see the differences
+  git diff master origin/master
+  
+  If you're happy with those updates, then merge
+  git pull
